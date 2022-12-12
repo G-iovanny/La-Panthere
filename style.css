@@ -678,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -754,14 +754,13 @@ h4 {
 }
 
 .black-background {
-    background-color: #F3976C;
+    background-color: black;
+    border-radius: 30px;
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    font-size: 12px;
-    color: black!important;
     text-decoration: underline!important;
 }
 
@@ -778,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: black!important;
+    color: white!important;
 }
 
 .color-title {
@@ -796,9 +795,12 @@ h4 {
 }
 
 .ltc-white {
-    color: black!important;
+    color: #FFFFFF!important;
 }
 
+.ltc-white:hover {
+    color: #cccccc!important;
+}
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
